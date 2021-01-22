@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+.recipes-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1100px;
+  margin: auto;
+}
+
+header {
+  background-color: #e7e7e7;
+  display: flex;
+  justify-content: center;
+  padding: 15px 30px;
+  margin-bottom: 30px;
+  box-shadow: 3px 3px 5px #8686866e;
+}
+
+.search-bar {
+  border: none;
+  border-bottom: 1px solid #414141;
+  background-color: #e7e7e7;
+  width: 300px;
+}
+
+.search-bar,
+.search-button {
+  padding: 10px 5px;
+  outline: none;
+}
+
+.search-button {
+  border: none;
+  border-bottom: 1px solid #414141;
+  border-radius: 0;
+  background-color: #e7e7e7;
+}
